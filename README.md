@@ -1,5 +1,3 @@
-![image](https://github.com/MahaaAlassaf/Movieanalyzer/assets/85122442/a3613335-8fc8-4ac2-8e27-02fbb60eaa61)# MovieAnalyzer
-
 ## Abstract
 
 In today's world, the enormous volume of movie reviews scattered across various platforms poses a significant challenge in comprehensively understanding public sentiments. To tackle this challenge, we introduce an automated approach employing sentiment analysis (SA) and natural language processing (NLP) techniques to classify sentiments within a dataset comprising 10,000 IMDb movie reviews. This automated sentiment classification facilitates the efficient extraction of public sentiment, thereby offering fast valuable insights for individuals seeking informed decision-making in movie selection.
