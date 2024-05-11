@@ -1,4 +1,4 @@
-# MovieAnalyzer
+![image](https://github.com/MahaaAlassaf/Movieanalyzer/assets/85122442/a3613335-8fc8-4ac2-8e27-02fbb60eaa61)# MovieAnalyzer
 
 ## Abstract
 
@@ -73,8 +73,9 @@ Logistic regression emerged as an optimal choice for SA due to its simplicity an
 ## 5. Communication Phase
 
 ### Study Outcomes
-
-We achieved an accuracy of 0.88, recall of 0.9, and F1-score of 0.88, showcasing the effectiveness of our approach.
+- **Accuracy:** 88%
+- **Recall:** 90%
+- **F-score:** 88%
 
 ### Encountered Problems
 
@@ -82,7 +83,4 @@ Computational limitations necessitated downsizing the dataset to 10,000 reviews 
 
 ## 6. Conclusion
 
-The MovieAnalyzer project aims to aid individuals in making informed decisions about movie quality based on reviews. Leveraging SA and NLP techniques in R, The model result            
-- **Accuracy:** 88%
-- **Recall:** 90%
-- **F-score:** 88%
+The project aims to assist individuals in making informed decisions about the quality of movies based on their reviews. SA and NLP techniques determine whether a review is positive or negative in R. The results shows that the model can predict weather the sentiment is positive or negative with an accuracy of 0.88.
