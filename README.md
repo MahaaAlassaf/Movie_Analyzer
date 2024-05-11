@@ -82,4 +82,7 @@ Computational limitations necessitated downsizing the dataset to 10,000 reviews 
 
 ## 6. Conclusion
 
-The MovieAnalyzer project aims to aid individuals in making informed decisions about movie quality based on reviews. Leveraging SA and NLP techniques in R, our model accurately predicts sentiment with an accuracy of 0.88. Future research could delve into finer-grained SA and domain adaptation techniques to enhance model accuracy across diverse movie datasets. Additionally, exploring alternative approaches such as Naive Bayes, Support Vector Machines, or Transformer-based Models could offer further insights and improvements.
+The MovieAnalyzer project aims to aid individuals in making informed decisions about movie quality based on reviews. Leveraging SA and NLP techniques in R, The model result            
+- **Accuracy:** 88%
+- **Recall:** 90%
+- **F-score:** 88%
