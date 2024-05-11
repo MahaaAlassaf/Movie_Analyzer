@@ -2,14 +2,6 @@
 
 In today's world, the enormous volume of movie reviews scattered across various platforms poses a significant challenge in comprehensively understanding public sentiments. To tackle this challenge, we introduce an automated approach employing sentiment analysis (SA) and natural language processing (NLP) techniques to classify sentiments within a dataset comprising 10,000 IMDb movie reviews. This automated sentiment classification facilitates the efficient extraction of public sentiment, thereby offering fast valuable insights for individuals seeking informed decision-making in movie selection.
 
-## Table of Contents
-1. [Discover Phase Problem](#discover-phase-problem)
-2. [Data Preparation Phase](#data-preparation-phase)
-3. [Model Planning Phase](#model-planning-phase)
-4. [Model Building Phase](#model-building-phase)
-5. [Communication Phase](#communication-phase)
-6. [Conclusion](#conclusion)
-
 ## 1. Discover Phase Problem
 
 The proliferation of the film industry has led to an abundance of opinions expressed about movies across various platforms. However, navigating through online movie reviews to gauge public sentiment is daunting due to the sheer volume of data. IMDb, a prominent platform for aggregating movie reviews, amassed a staggering 7 million reviews by 2023. This abundance of data makes it arduous for viewers to ascertain whether a film is well-received or not.
