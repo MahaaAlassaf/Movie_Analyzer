@@ -2,7 +2,7 @@
 
 ## Abstract
 
-In today's world, the enormous volume of movie reviews scattered across various platforms poses a significant challenge in comprehensively understanding public sentiments. To tackle this challenge, we introduce an automated approach employing sentiment analysis (SA) and natural language processing (NLP) techniques to classify sentiments within a dataset comprising 10,000 IMDb movie reviews. Leveraging logistic regression, our methodology achieves an impressive accuracy of 0.88, recall of 0.9, and F1-score of 0.88. This automated sentiment classification facilitates the efficient extraction of public sentiment, thereby offering valuable insights for individuals seeking informed decision-making in movie selection.
+In today's world, the enormous volume of movie reviews scattered across various platforms poses a significant challenge in comprehensively understanding public sentiments. To tackle this challenge, we introduce an automated approach employing sentiment analysis (SA) and natural language processing (NLP) techniques to classify sentiments within a dataset comprising 10,000 IMDb movie reviews. This automated sentiment classification facilitates the efficient extraction of public sentiment, thereby offering fast valuable insights for individuals seeking informed decision-making in movie selection.
 
 ## Table of Contents
 1. [Discover Phase Problem](#discover-phase-problem)
@@ -26,10 +26,17 @@ The dataset, obtained from Kaggle, consists of 50,000 movie reviews equally dist
 
 ### Data Cleaning
 
-Raw text often contains noise, biases, and inconsistencies that can impede model performance. Hence, data cleaning is crucial to refine and preprocess the text, eliminating biases, noise, and ensuring consistency. We utilized the `tm` package for data mining and cleaning, along with the `textstem` package for lemmatization. Our cleaning process involved:
-- Converting text to lowercase for uniformity.
-- Removing whitespace, punctuation, numbers, stop words, URLs, hashtags, and redundant whitespaces.
-- Lemmatization to reduce words to their base or root form.
+Raw text often contains noise, biases, and inconsistencies that can impede model performance. Hence, data cleaning is crucial to refine and preprocess the text, eliminating biases, noise, and ensuring consistency. In our MovieAnalyzer project, we employed the following packages for data cleaning:
+
+- **tm package:** The [tm](https://cran.r-project.org/web/packages/tm/index.html) package was utilized for data mining and cleaning tasks. It provided a comprehensive set of tools for text preprocessing, enabling us to efficiently handle large volumes of text data.
+  
+- **textstem package:** We utilized the [textstem](https://cran.r-project.org/web/packages/textstem/index.html) package for lemmatization, which is the process of reducing words to their base or root form. This helped in standardizing the text data and reducing the dimensionality of the feature space.
+
+Our cleaning process involved several steps to prepare the IMDb movie review dataset obtained from [Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews):
+
+- Converting text to lowercase for uniformity across the dataset.
+- Removing whitespace, punctuation, numbers, stop words, URLs, hashtags, and redundant whitespaces to eliminate noise and irrelevant information.
+- Lemmatization was performed to further standardize the text data, reducing words to their base or root form.
 
 ## 3. Model Planning Phase
 
